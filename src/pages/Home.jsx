@@ -7,7 +7,7 @@ import {
   headTextAnimation,
   slideAnimation,
 } from "../config/motion";
-import CustomButton from "../components/CustomButton";
+import { CustomButton } from "../components";
 
 const Home = () => {
   const snap = useSnapshot(state);
@@ -25,7 +25,7 @@ const Home = () => {
             />
           </motion.header>
 
-          {/* home content */}
+          {/* home text and button */}
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
@@ -42,6 +42,7 @@ const Home = () => {
                 and define your own style.
               </p>
 
+              {/* button component */}
               <CustomButton
                 type="filled"
                 title="Customize It"
