@@ -29,7 +29,7 @@ To run the project locally, follow these steps:
 3. Start the development server: npm run dev
 
 ## Dependencies
-React
-Three.js
-Framer Motion
-Valtio
+1. React
+2. Three.js
+3. Framer Motion
+4. Valtio
