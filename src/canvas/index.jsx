@@ -6,6 +6,7 @@ import CameraRig from "./CameraRig";
 
 const CanvasModel = () => {
   return (
+    // three js canvas
     <Canvas
       shadows
       camera={{ position: [0, 0, 0], fov: 25 }}
