@@ -1,4 +1,4 @@
-# 3D Shirt Customization Web App
+# 3D Shirt Customization React Web App
 ## Overview
 This project is a web application that enables users to customize shirts in a 3D environment. It utilizes React with Three.js for 3D rendering and Framer Motion for animations. The application allows users to upload images, apply decals, change colors, and explore various customization options to create unique shirts.
 
